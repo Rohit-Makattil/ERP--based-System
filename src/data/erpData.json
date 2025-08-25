@@ -1,0 +1,449 @@
+{
+  "Company_Name": "Info Electronics Pvt Ltd",
+  "Company_Details": {
+    "Registration_No": "U72200MH2020PTC123456",
+    "GSTIN": "27AABCI0234E1Z5",
+    "Address": "Tech Park, Andheri East, Mumbai - 400069",
+    "Contact": "+91-8169229715",
+    "Email": "ashish@infoelectronics.com",
+    "Owner": "Ashish Maurya"
+  },
+  "Sales_Inventory": {
+    "Products": [
+      {
+        "Product_ID": "P001",
+        "Product_Name": "Samsung Neo QLED 65\" TV",
+        "Category": "Television",
+        "Stock_Available": 150,
+        "Unit_Price": 125000,
+        "HSN_Code": "8528",
+        "Reorder_Level": 30,
+        "GST": {
+          "CGST": 9,
+          "SGST": 9,
+          "IGST": 18
+        }
+      },
+      {
+        "Product_ID": "P002",
+        "Product_Name": "MacBook Pro M2 16\"",
+        "Category": "Laptop",
+        "Stock_Available": 80,
+        "Unit_Price": 225000,
+        "HSN_Code": "8471",
+        "Reorder_Level": 20,
+        "GST": {
+          "CGST": 9,
+          "SGST": 9,
+          "IGST": 18
+        }
+      },
+      {
+        "Product_ID": "P003",
+        "Product_Name": "Apple AirPods Pro",
+        "Category": "Audio",
+        "Stock_Available": 200,
+        "Unit_Price": 24900,
+        "HSN_Code": "8518",
+        "Reorder_Level": 50,
+        "GST": {
+          "CGST": 6,
+          "SGST": 6,
+          "IGST": 12
+        }
+      },
+      {
+        "Product_ID": "P004",
+        "Product_Name": "Amazon Echo Show 10",
+        "Category": "Smart Home",
+        "Stock_Available": 120,
+        "Unit_Price": 22900,
+        "HSN_Code": "8517",
+        "Reorder_Level": 30,
+        "GST": {
+          "CGST": 6,
+          "SGST": 6,
+          "IGST": 12
+        }
+      }
+    ],
+    "Sales_Transactions": [
+      {
+        "Sales_ID": "S001",
+        "Customer_Name": "Rajesh Kumar",
+        "Customer_Type": "Individual",
+        "Product_ID": "P001",
+        "Quantity_Sold": 1,
+        "Total_Amount": 125000,
+        "GST_Amount": 22500,
+        "Net_Amount": 147500,
+        "Invoice_Number": "INV/23-24/001",
+        "Date": "2024-03-22",
+        "Payment_Mode": "Credit Card"
+      },
+      {
+        "Sales_ID": "S002",
+        "Customer_Name": "TechCorp Solutions",
+        "Customer_Type": "Corporate",
+        "Product_ID": "P002",
+        "Quantity_Sold": 5,
+        "Total_Amount": 1125000,
+        "GST_Amount": 202500,
+        "Net_Amount": 1327500,
+        "Invoice_Number": "INV/23-24/002",
+        "Date": "2024-03-21",
+        "Payment_Mode": "Bank Transfer"
+      },
+      {
+        "Sales_ID": "S003",
+        "Customer_Name": "Priya Mehta",
+        "Customer_Type": "Individual",
+        "Product_ID": "P003",
+        "Quantity_Sold": 2,
+        "Total_Amount": 49800,
+        "GST_Amount": 5976,
+        "Net_Amount": 55776,
+        "Invoice_Number": "INV/23-24/003",
+        "Date": "2024-03-20",
+        "Payment_Mode": "UPI"
+      },
+      {
+        "Sales_ID": "S004",
+        "Customer_Name": "Smart Homes Ltd",
+        "Customer_Type": "Corporate",
+        "Product_ID": "P004",
+        "Quantity_Sold": 10,
+        "Total_Amount": 229000,
+        "GST_Amount": 27480,
+        "Net_Amount": 256480,
+        "Invoice_Number": "INV/23-24/004",
+        "Date": "2024-03-19",
+        "Payment_Mode": "Bank Transfer"
+      },
+      {
+        "Sales_ID": "S005",
+        "Customer_Name": "Amit Shah",
+        "Customer_Type": "Individual",
+        "Product_ID": "P001",
+        "Quantity_Sold": 1,
+        "Total_Amount": 125000,
+        "GST_Amount": 22500,
+        "Net_Amount": 147500,
+        "Invoice_Number": "INV/23-24/005",
+        "Date": "2024-03-18",
+        "Payment_Mode": "Credit Card"
+      }
+    ]
+  },
+  "Purchase_Orders": {
+    "Suppliers": [
+      {
+        "Supplier_ID": "SUP001",
+        "Supplier_Name": "Samsung India Electronics Pvt Ltd",
+        "Contact_Person": "Amit Sharma",
+        "Email": "amit.sharma@samsung.com",
+        "Phone": "9876543210",
+        "Address": "Mumbai, Maharashtra",
+        "GSTIN": "27AABCS8765R1Z5"
+      },
+      {
+        "Supplier_ID": "SUP002",
+        "Supplier_Name": "Apple India Pvt Ltd",
+        "Contact_Person": "Sneha Patel",
+        "Email": "sneha.patel@apple.com",
+        "Phone": "9876543211",
+        "Address": "Bangalore, Karnataka",
+        "GSTIN": "29AAACA8765B1Z4"
+      },
+      {
+        "Supplier_ID": "SUP003",
+        "Supplier_Name": "Amazon Seller Services",
+        "Contact_Person": "Rahul Verma",
+        "Email": "rahul.verma@amazon.in",
+        "Phone": "9876543212",
+        "Address": "Delhi, NCR",
+        "GSTIN": "07AAACD8765C1Z3"
+      },
+      {
+        "Supplier_ID": "SUP004",
+        "Supplier_Name": "Sony India Pvt Ltd",
+        "Contact_Person": "Priya Singh",
+        "Email": "priya.singh@sony.com",
+        "Phone": "9876543213",
+        "Address": "Chennai, Tamil Nadu",
+        "GSTIN": "33AABCS8765D1Z2"
+      },
+      {
+        "Supplier_ID": "SUP005",
+        "Supplier_Name": "LG Electronics India",
+        "Contact_Person": "Vikram Malhotra",
+        "Email": "vikram.malhotra@lg.com",
+        "Phone": "9876543214",
+        "Address": "Pune, Maharashtra",
+        "GSTIN": "27AAACL8765E1Z1"
+      }
+    ],
+    "Purchase_Transactions": [
+      {
+        "PO_ID": "PO001",
+        "Supplier_ID": "SUP001",
+        "Product_ID": "P001",
+        "Quantity": 20,
+        "Unit_Price": 100000,
+        "Total_Amount": 2000000,
+        "GST_Amount": 360000,
+        "Net_Amount": 2360000,
+        "Order_Date": "2024-03-15",
+        "Status": "Delivered"
+      },
+      {
+        "PO_ID": "PO002",
+        "Supplier_ID": "SUP002",
+        "Product_ID": "P002",
+        "Quantity": 15,
+        "Unit_Price": 190000,
+        "Total_Amount": 2850000,
+        "GST_Amount": 513000,
+        "Net_Amount": 3363000,
+        "Order_Date": "2024-03-14",
+        "Status": "Processing"
+      },
+      {
+        "PO_ID": "PO003",
+        "Supplier_ID": "SUP002",
+        "Product_ID": "P003",
+        "Quantity": 100,
+        "Unit_Price": 18000,
+        "Total_Amount": 1800000,
+        "GST_Amount": 216000,
+        "Net_Amount": 2016000,
+        "Order_Date": "2024-03-13",
+        "Status": "Pending"
+      },
+      {
+        "PO_ID": "PO004",
+        "Supplier_ID": "SUP003",
+        "Product_ID": "P004",
+        "Quantity": 50,
+        "Unit_Price": 17000,
+        "Total_Amount": 850000,
+        "GST_Amount": 102000,
+        "Net_Amount": 952000,
+        "Order_Date": "2024-03-12",
+        "Status": "Delivered"
+      },
+      {
+        "PO_ID": "PO005",
+        "Supplier_ID": "SUP001",
+        "Product_ID": "P001",
+        "Quantity": 15,
+        "Unit_Price": 100000,
+        "Total_Amount": 1500000,
+        "GST_Amount": 270000,
+        "Net_Amount": 1770000,
+        "Order_Date": "2024-03-11",
+        "Status": "Processing"
+      }
+    ]
+  },
+  "Finance_Accounting": {
+    "Transactions": [
+      {
+        "Transaction_ID": "TR001",
+        "Type": "Sales Receipt",
+        "Reference_No": "S001",
+        "Amount": 147500,
+        "Date": "2024-03-22",
+        "Payment_Mode": "Credit Card",
+        "Status": "Completed"
+      },
+      {
+        "Transaction_ID": "TR002",
+        "Type": "Purchase Payment",
+        "Reference_No": "PO001",
+        "Amount": 2360000,
+        "Date": "2024-03-21",
+        "Payment_Mode": "Bank Transfer",
+        "Status": "Completed"
+      },
+      {
+        "Transaction_ID": "TR003",
+        "Type": "Sales Receipt",
+        "Reference_No": "S002",
+        "Amount": 1327500,
+        "Date": "2024-03-21",
+        "Payment_Mode": "Bank Transfer",
+        "Status": "Completed"
+      },
+      {
+        "Transaction_ID": "TR004",
+        "Type": "Salary Payment",
+        "Reference_No": "PAY/03/24/001",
+        "Amount": 87600,
+        "Date": "2024-03-20",
+        "Payment_Mode": "Bank Transfer",
+        "Status": "Completed"
+      },
+      {
+        "Transaction_ID": "TR005",
+        "Type": "Sales Receipt",
+        "Reference_No": "S003",
+        "Amount": 55776,
+        "Date": "2024-03-20",
+        "Payment_Mode": "UPI",
+        "Status": "Completed"
+      }
+    ]
+  },
+  "HR_Payroll": {
+    "Employees": [
+      {
+        "Employee_ID": "EMP001",
+        "Name": "Ashish Maurya",
+        "Designation": "CEO",
+        "Department": "Management",
+        "Join_Date": "2022-01-15",
+        "Basic_Salary": 60000,
+        "HRA": 30000,
+        "Special_Allowance": 10000,
+        "PF_Deduction": 7200,
+        "Net_Salary": 92800
+      },
+      {
+        "Employee_ID": "EMP002",
+        "Name": "Piyush Patil",
+        "Designation": "Finance Manager",
+        "Department": "Finance",
+        "Join_Date": "2022-03-01",
+        "Basic_Salary": 65000,
+        "HRA": 32500,
+        "Special_Allowance": 12000,
+        "PF_Deduction": 7800,
+        "Net_Salary": 101700
+      },
+      {
+        "Employee_ID": "EMP003",
+        "Name": "Suffiyan",
+        "Designation": "HR Executive",
+        "Department": "HR",
+        "Join_Date": "2022-06-15",
+        "Basic_Salary": 45000,
+        "HRA": 22500,
+        "Special_Allowance": 8000,
+        "PF_Deduction": 5400,
+        "Net_Salary": 70100
+      },
+      {
+        "Employee_ID": "EMP004",
+        "Name": "Rohit Makattil",
+        "Designation": "Technical Support",
+        "Department": "IT",
+        "Join_Date": "2022-08-01",
+        "Basic_Salary": 40000,
+        "HRA": 20000,
+        "Special_Allowance": 7000,
+        "PF_Deduction": 4800,
+        "Net_Salary": 62200
+      },
+      {
+        "Employee_ID": "EMP005",
+        "Name": "Sneha Gupta",
+        "Designation": "Sales Executive",
+        "Department": "Sales",
+        "Join_Date": "2022-10-15",
+        "Basic_Salary": 35000,
+        "HRA": 17500,
+        "Special_Allowance": 6000,
+        "PF_Deduction": 4200,
+        "Net_Salary": 54300
+      }
+    ],
+    "Payroll_Transactions": [
+      {
+        "Payroll_ID": "PAY/03/24/001",
+        "Employee_ID": "EMP001",
+        "Month": "March 2024",
+        "Basic_Salary": 60000,
+        "HRA": 30000,
+        "Special_Allowance": 10000,
+        "Gross_Salary": 100000,
+        "Deductions": {
+          "PF": 7200,
+          "Professional_Tax": 200,
+          "TDS": 5000
+        },
+        "Net_Salary": 87600,
+        "Payment_Date": "2024-03-31",
+        "Payment_Mode": "Bank Transfer"
+      },
+      {
+        "Payroll_ID": "PAY/03/24/002",
+        "Employee_ID": "EMP002",
+        "Month": "March 2024",
+        "Basic_Salary": 65000,
+        "HRA": 32500,
+        "Special_Allowance": 12000,
+        "Gross_Salary": 109500,
+        "Deductions": {
+          "PF": 7800,
+          "Professional_Tax": 200,
+          "TDS": 6000
+        },
+        "Net_Salary": 95500,
+        "Payment_Date": "2024-03-31",
+        "Payment_Mode": "Bank Transfer"
+      },
+      {
+        "Payroll_ID": "PAY/03/24/003",
+        "Employee_ID": "EMP003",
+        "Month": "March 2024",
+        "Basic_Salary": 45000,
+        "HRA": 22500,
+        "Special_Allowance": 8000,
+        "Gross_Salary": 75500,
+        "Deductions": {
+          "PF": 5400,
+          "Professional_Tax": 200,
+          "TDS": 2500
+        },
+        "Net_Salary": 67400,
+        "Payment_Date": "2024-03-31",
+        "Payment_Mode": "Bank Transfer"
+      },
+      {
+        "Payroll_ID": "PAY/03/24/004",
+        "Employee_ID": "EMP004",
+        "Month": "March 2024",
+        "Basic_Salary": 40000,
+        "HRA": 20000,
+        "Special_Allowance": 7000,
+        "Gross_Salary": 67000,
+        "Deductions": {
+          "PF": 4800,
+          "Professional_Tax": 200,
+          "TDS": 2000
+        },
+        "Net_Salary": 60000,
+        "Payment_Date": "2024-03-31",
+        "Payment_Mode": "Bank Transfer"
+      },
+      {
+        "Payroll_ID": "PAY/03/24/005",
+        "Employee_ID": "EMP005",
+        "Month": "March 2024",
+        "Basic_Salary": 35000,
+        "HRA": 17500,
+        "Special_Allowance": 6000,
+        "Gross_Salary": 58500,
+        "Deductions": {
+          "PF": 4200,
+          "Professional_Tax": 200,
+          "TDS": 1500
+        },
+        "Net_Salary": 52600,
+        "Payment_Date": "2024-03-31",
+        "Payment_Mode": "Bank Transfer"
+      }
+    ]
+  }
+} 

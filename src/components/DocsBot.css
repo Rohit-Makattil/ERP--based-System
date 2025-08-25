@@ -1,0 +1,26 @@
+/* DocsBot widget icon styling */
+#docsbotai-root {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+/* Style the launcher button (widget icon) */
+.docsbotai-launcher-frame {
+  border-radius: 50% !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.2s ease !important;
+}
+
+.docsbotai-launcher-frame:hover {
+  transform: scale(1.05) !important;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #docsbotai-root {
+    bottom: 10px;
+    right: 10px;
+  }
+} 

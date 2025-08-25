@@ -1,0 +1,20 @@
+/* Apply theme colors */
+.light-theme {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.dark-theme {
+  background: #181A20;
+  color: white;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+/* Center content */
+.content {
+  margin-left: 260px;
+  padding: 20px;
+}

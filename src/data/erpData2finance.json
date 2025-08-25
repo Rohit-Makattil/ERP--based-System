@@ -1,0 +1,275 @@
+{
+  "company_info": {
+    "name": "Info Electronics Pvt Ltd",
+    "registration_no": "U72200MH2020PTC123456",
+    "gstin": "27AABCI0234E1Z5",
+    "fiscal_year": "2024-25",
+    "currency": "₹",
+    "address": "Tech Park, Andheri East, Mumbai - 400069",
+    "contact": "+91-8169229715",
+    "email": "ashish@infoelectronics.com"
+  },
+  "financial_metrics": {
+    "revenue": {
+      "current_month": {
+        "total": 1934756,
+        "breakdown": {
+          "product_sales": 1934756,
+          "services": 0
+        }
+      },
+      "yearly": {
+        "target": 25000000,
+        "achieved": 1934756,
+        "projected": 24500000
+      }
+    },
+    "expenses": {
+      "current_month": {
+        "total": 2447600,
+        "breakdown": {
+          "salaries": 363100,
+          "purchases": 2084500
+        }
+      },
+      "yearly": {
+        "budget": 18000000,
+        "spent": 2447600,
+        "projected": 17500000
+      }
+    },
+    "profit": {
+      "current_month": {
+        "gross_profit": 371556,
+        "net_profit": 297245
+      },
+      "yearly": {
+        "target": 7000000,
+        "achieved": 371556,
+        "projected": 7000000
+      }
+    },
+    "cash_flow": {
+      "current_balance": 2447245,
+      "accounts_receivable": 1934756,
+      "accounts_payable": 2447600
+    }
+  },
+  "monthly_trends": {
+    "revenue": [
+      {
+        "month": "Mar 2024",
+        "amount": 1934756
+      }
+    ],
+    "expenses": [
+      {
+        "month": "Mar 2024",
+        "amount": 2447600
+      }
+    ]
+  },
+  "expense_categories": {
+    "operational": [
+      { "category": "Salaries", "amount": 363100, "percentage": 14.8 },
+      { "category": "Purchases", "amount": 2084500, "percentage": 85.2 }
+    ]
+  },
+  "financial_ratios": {
+    "current_ratio": 0.79,
+    "gross_margin": 0.19,
+    "net_profit_margin": 0.15,
+    "operating_expense_ratio": 0.81
+  },
+  "recent_transactions": {
+    "income": [
+      {
+        "id": "TR001",
+        "date": "2024-03-22",
+        "description": "Sales Receipt - INV/23-24/001",
+        "amount": 147500,
+        "type": "Sales",
+        "payment_mode": "Credit Card",
+        "status": "Completed"
+      },
+      {
+        "id": "TR003",
+        "date": "2024-03-21",
+        "description": "Sales Receipt - INV/23-24/002",
+        "amount": 1327500,
+        "type": "Sales",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR005",
+        "date": "2024-03-20",
+        "description": "Sales Receipt - INV/23-24/003",
+        "amount": 55776,
+        "type": "Sales",
+        "payment_mode": "UPI",
+        "status": "Completed"
+      },
+      {
+        "id": "TR007",
+        "date": "2024-03-19",
+        "description": "Sales Receipt - INV/23-24/004",
+        "amount": 256480,
+        "type": "Sales",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR009",
+        "date": "2024-03-18",
+        "description": "Sales Receipt - INV/23-24/005",
+        "amount": 147500,
+        "type": "Sales",
+        "payment_mode": "Credit Card",
+        "status": "Completed"
+      },
+      {
+        "id": "TR011",
+        "date": "2024-03-17",
+        "description": "Service Income - SRV/001",
+        "amount": 25000,
+        "type": "Service",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR013",
+        "date": "2024-03-16",
+        "description": "Interest Income",
+        "amount": 15000,
+        "type": "Interest",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR015",
+        "date": "2024-03-15",
+        "description": "Sales Receipt - INV/23-24/006",
+        "amount": 185000,
+        "type": "Sales",
+        "payment_mode": "UPI",
+        "status": "Completed"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "TR002",
+        "date": "2024-03-21",
+        "description": "Purchase Payment - PO001",
+        "amount": 2360000,
+        "type": "Purchase",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR004",
+        "date": "2024-03-20",
+        "description": "Salary Payment - PAY/03/24/001",
+        "amount": 87600,
+        "type": "Salary",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR006",
+        "date": "2024-03-19",
+        "description": "Rent Payment - March 2024",
+        "amount": 150000,
+        "type": "Rent",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR008",
+        "date": "2024-03-18",
+        "description": "Utility Bills - Electricity",
+        "amount": 45000,
+        "type": "Utilities",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR010",
+        "date": "2024-03-17",
+        "description": "Internet and Phone Bills",
+        "amount": 25000,
+        "type": "Utilities",
+        "payment_mode": "Credit Card",
+        "status": "Completed"
+      },
+      {
+        "id": "TR012",
+        "date": "2024-03-16",
+        "description": "Office Supplies",
+        "amount": 35000,
+        "type": "Supplies",
+        "payment_mode": "Credit Card",
+        "status": "Completed"
+      },
+      {
+        "id": "TR014",
+        "date": "2024-03-15",
+        "description": "Marketing Expenses",
+        "amount": 75000,
+        "type": "Marketing",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      },
+      {
+        "id": "TR016",
+        "date": "2024-03-14",
+        "description": "Insurance Premium",
+        "amount": 45000,
+        "type": "Insurance",
+        "payment_mode": "Bank Transfer",
+        "status": "Completed"
+      }
+    ]
+  },
+  "forecasts": {
+    "revenue": [
+      { "month": "Apr 2024", "amount": 2100000, "growth": 8.5 },
+      { "month": "May 2024", "amount": 2250000, "growth": 7.1 },
+      { "month": "Jun 2024", "amount": 2400000, "growth": 6.7 }
+    ],
+    "expenses": [
+      { "month": "Apr 2024", "amount": 1800000, "growth": -26.5 },
+      { "month": "May 2024", "amount": 1900000, "growth": 5.6 },
+      { "month": "Jun 2024", "amount": 2000000, "growth": 5.3 }
+    ]
+  },
+  "budget_tracking": {
+    "departments": {
+      "management": {
+        "allocated": 92800,
+        "spent": 87600,
+        "remaining": 5200
+      },
+      "finance": {
+        "allocated": 101700,
+        "spent": 95500,
+        "remaining": 6200
+      },
+      "hr": {
+        "allocated": 70100,
+        "spent": 67400,
+        "remaining": 2700
+      },
+      "it": {
+        "allocated": 62200,
+        "spent": 60000,
+        "remaining": 2200
+      },
+      "sales": {
+        "allocated": 54300,
+        "spent": 52600,
+        "remaining": 1700
+      }
+    }
+  }
+} 
