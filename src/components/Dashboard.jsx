@@ -53,7 +53,7 @@ const Dashboard = () => {
             <div className="avatar">👤</div>
             <div className="user-info">
               <h3>Administrator</h3>
-              <p>Ashish Maurya</p>
+              <p>Rohit Makattil</p>
             </div>
           </div>
 
